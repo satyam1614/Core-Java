@@ -16,6 +16,7 @@ public class TestAccount {
 		System.out.println(a1.getBalance());
 		a1.Deposit(500);
 		a1.withdrawl(1000);
+		a1.fundTransfer(a1, 500);
 		
 	}
 	

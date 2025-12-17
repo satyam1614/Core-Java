@@ -10,6 +10,13 @@ public class Circle extends Shape {
 	public int getRadious() {
 		return radious;
 	}
+	public double area(int radius) {
 
+		double area = Math.PI * radius * radius;
+
+		return area;
+
+	}
+ 
 
 }

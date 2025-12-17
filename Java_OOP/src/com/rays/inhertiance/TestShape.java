@@ -14,6 +14,7 @@ public class TestShape {
 	 System.out.println(c1.getRadious());
 	 System.out.println(c1.getColour());
 	 System.out.println(c1.getBorderWidth());
+	 System.out.println(c1.area(6));
 	 
 	 
 	 
@@ -30,6 +31,7 @@ public class TestShape {
 	  System.out.println(r.getWidth());
 	  System.out.println(r.getBorderWidth());
 	  System.out.println(r.getColour());
+	  System.out.println(r.area(10, 5));
 	  
 	  
 	  
@@ -46,6 +48,7 @@ public class TestShape {
 	 System.out.println(t.getBorderWidth());
 	 System.out.println(t.getColour());
 	 System.out.println(t.getHeight());
+	 System.out.println(t.area());
 	 
 	 
 	 

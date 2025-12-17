@@ -1,6 +1,8 @@
 
 
 
+
+
 package com.rays.inhertiance;
 
 public class Triangle extends Shape {
@@ -20,6 +22,10 @@ public class Triangle extends Shape {
 	public void setHeight(int height ) {
 		this.height = height;
 	}
+	public double area() {
+		return (base * height) / 2;
+	}
+
 	
 }
 

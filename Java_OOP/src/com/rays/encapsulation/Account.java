@@ -42,5 +42,17 @@ public class Account {
 			System.out.println(balance);
 		}
 	}
+			
+			public void fundTransfer(Account accountToTransfer, double amount) {
+				if (amount > 0 && amount <= balance) {
+					balance = balance - amount;
+					accountToTransfer.balance = accountToTransfer.balance + amount;
+					System.out.println("Transferred " + amount + " to " + accountToTransfer.getNumber());
+					System.out.println("Your New Balance: " + this.balance);
+				} else {
+					System.out.println("Transfer failed. Insufficient funds or invalid amount");
+				
+				}
+	}
 
 }

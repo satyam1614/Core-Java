@@ -1,3 +1,4 @@
+
 package com.rays.encapsulation;
 
 import java.util.Date;
@@ -34,9 +35,9 @@ public class Person {
 		this.address = address;
 	} 
 
-	public int getAge(java.sql.Date dob) {
+	public int getAge(Date dob) {
 		 Date now = new Date();
-		 int age = now.getYear()- dob.getYear();
+		int age = now.getYear() - dob.getYear();
 		 return age;
 		 
 	}
