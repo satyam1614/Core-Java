@@ -1,6 +1,4 @@
-
-package com.rays.Ploymorphism;
-
+package com.rays.abstraction;
 
 public class Circle extends Shape {
 	
@@ -13,17 +11,11 @@ public class Circle extends Shape {
 	public void setRadius(int radius) {
 		this.radius = radius;
 	}
+	
 	@Override
-		public void area() {
-			System.out.println("area of circle:" + Math.PI * radius *radius);
-			
-		}	
-
-
-	
-	
-	
-	
-
+	public double area() {
+		return Math.PI * radius * radius;
+		
+	}
 
 }

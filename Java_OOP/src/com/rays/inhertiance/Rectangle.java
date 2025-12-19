@@ -1,3 +1,4 @@
+
 package com.rays.inhertiance;
 
 public class Rectangle extends Shape {
