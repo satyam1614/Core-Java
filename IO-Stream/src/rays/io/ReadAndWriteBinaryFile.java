@@ -8,7 +8,7 @@ public class ReadAndWriteBinaryFile {
 
 	public static void main(String[] args) throws IOException {
 		
-		String source = ("C:\\io\\shinchan.jpeg");
+		String source = ("c://io//cartoon.jpeg");
 				
 		String  target =("c://io//cartoon.jpeg");
 		

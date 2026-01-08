@@ -13,9 +13,9 @@ public class ReadFromKeyword {
 		
 		System.out.println("start writing your text here...");
 		
-		InputStreamReader sr = new  InputStreamReader(System.in);
+		InputStreamReader kb = new  InputStreamReader(System.in);
 		
-		BufferedReader in = new BufferedReader(sr);
+		BufferedReader in = new BufferedReader(kb);
 		
 		String line = in.readLine();
 		
@@ -25,7 +25,7 @@ public class ReadFromKeyword {
 		}
 		in.close();
 		out.close();
-		sr.close();
+		kb.close();
 	
 		}
 		

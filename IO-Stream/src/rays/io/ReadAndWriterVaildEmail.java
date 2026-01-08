@@ -10,8 +10,8 @@ public class ReadAndWriterVaildEmail {
 	
 	public static void main(String[] args) throws Exception {
 		
-		FileReader source = new FileReader("C:\\io\\email.txt");
-		FileWriter target = new FileWriter("C:\\io\\vaildemail.txt");
+		FileReader source = new FileReader("C://io//email.txt");
+		FileWriter target = new FileWriter("C://io//vaildemail.txt");
 		
 		BufferedReader br = new BufferedReader(source);
 		BufferedWriter bw = new BufferedWriter(target);
